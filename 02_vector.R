@@ -79,6 +79,7 @@ sum(seq(1, 28, by = 3) / 3 ^ (0:9) > .5)
 
 n <- c(0, 1, 1, 2, 3, 5, 8, 13, 21, 34)
 n[1]
+#`[`(n, 1)
 n[length(n)]
 n[3] <- 20
 n
@@ -105,3 +106,4 @@ my_named_vector
 my_named_vector[c("b", "a")]
 #my_named_vector["b", "a"]
 n[c(3, 4, 5)]
+log(sqrt(mean(1:10)))
