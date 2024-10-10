@@ -68,5 +68,4 @@ read.csv("/Users/ivan/Library/Mobile Documents/com~apple~CloudDocs/Downloads/her
 getwd()
 read.csv("heroes_information.csv")
 
-read.csv("https://raw.githubusercontent.com/Pozdniakov/tidy_stats/refs/heads/master/data/heroes_information.csv")
 
