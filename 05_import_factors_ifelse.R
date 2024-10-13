@@ -111,4 +111,3 @@ height <- 1.86
 imt <- function(m, h) m/h^2
 imt(mass, height)
 imt(100, 1.90)
-bb 
