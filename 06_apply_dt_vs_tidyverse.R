@@ -122,6 +122,8 @@ heroes_dt[Alignment == "good",
 install.packages("tidyverse")
 library(tidyverse)
  
+heroes_tbl <- read_csv("https://raw.githubusercontent.com/Pozdniakov/tidy_stats/refs/heads/master/data/heroes_information.csv",
+                   na = c("NA", "-", "-99", ""))
 class(heroes_tbl)
 heroes_tbl
 dim(heroes_tbl)
@@ -131,3 +133,4 @@ heroes_tbl %>%
   group_by(Gender) %>%
   summarise(mean_height = mean(Height, na.rm = TRUE)) %>%
   arrange(desc(mean_height))
+
